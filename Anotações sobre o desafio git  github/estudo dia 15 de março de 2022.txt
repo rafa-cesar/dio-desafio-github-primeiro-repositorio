@@ -1,0 +1,158 @@
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio
+$ git clone https://github.com/rafa-cesar/dio-desafio-github-primeiro-repositorio.git
+Cloning into 'dio-desafio-github-primeiro-repositorio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio
+$ cd dio-desafio-github-primeiro-repositorio
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Anota\303\247\303\265es sobre o desafio git  github/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git add.
+git status
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Anota\303\247\303\265es sobre o desafio git  github/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git add  -A
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Anota\303\247\303\265es sobre o desafio git  github/estudo dia 15 de mar\303\247o de 2022.txt"
+
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Rafael@LAPTOP-35L5OUP0.(none)')
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git config --global user.email "rafael.cesarmsantos@gmail.com"
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git config --global user.name "rafa-cesar"
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"
+[main 3ef2a2b] inclusão das anotações do curso de git/github
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Anota\303\247\303\265es sobre o desafio git  github/estudo dia 15 de mar\303\247o de 2022.txt"
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+fatal: helper error (-1): User cancelled dialog.
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/rafa-cesar/dio-desafio-github-primeiro-repositorio.git/'
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git pushEnumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 414 bytes | 103.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rafa-cesar/dio-desafio-github-primeiro-repositorio.git
+   db0f6f6..3ef2a2b  main -> main
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git pusEverything up-to-date
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"0
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"0
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotações do curso de git/github"0[A[A
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Rafael@LAPTOP-35L5OUP0 MINGW64 ~/Desktop/dio/dio-desafio-github-primeiro-repositorio (main)
